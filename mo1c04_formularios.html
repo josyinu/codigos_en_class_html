@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <h1>Formularios</h1>
+        <label for="">Nombre</label>
+        <input type="text" id="txt-nombre" name="txt-nombre" placeholder="Introduzca su nombre"><br><br>
+        <label for="">Correo Electronico</label>
+        <input type="email" id="txt-email" name="txt-email" required><br><br>
+        <label for="">Password</label>
+        <input type="password" id="txt-Password" name="txt-Password" required><br><br>
+        <label for="">Fecha de Ingreso</label>
+        <input type="date" id="Fecha de Ingreso" name="Fecha de Ingreso" required><br><br>
+        <label for="">Comentarios</label><br>
+        <textarea name="txt-comentarios" id="comentarios" cols="30" rows="4" required></textarea><br><br>
+        <label for="">Selecione la provincia</label>
+        <select name="txt-provincia" id="txt-provincia">
+            <option value="San-Jose">San Jose</option>
+            <option value="Limon">Limon</option>
+            <option value="Heredia">Heredia</option>
+            <option value="Alajuela">Alajuela</option>
+            <option value="Cartago">Cartago</option>
+            <option value="Guanacaste">Guanacaste</option>
+            <option value="Puntarenas">Puntarenas</option>
+        </select><br><br>  
+        <label for="txt-opt1">Opcion 1</label>
+        <input type="radio" id="txt-opt1" name="txt-opt" value="op1">
+        <label for="txt-opt2">Opcion 2</label>
+        <input type="radio" id="txt-opt2" name="txt-opt" value="op2">
+        <label for="txt-opt3">Opcion 3</label>
+        <input type="radio" id="txt-opt3" name="txt-opt" value="op2">
+        <br><br>
+    
+        <label for="chk-1">Seleccion1</label>
+        <input type="checkbox" name="Opcion1" id="chk-1" value="4">
+
+        <label for="chk-2">Seleccion2</label>
+        <input type="checkbox" name="Opcion2" id="chk-2" value="5">
+
+        <label for="chk-3">Seleccion3</label>
+        <input type="checkbox" name="Opcion3" id="chk-3" value="6">
+        <br><br>
+        <label for="Archivo">Archivo</label>
+        <input type="file" name="Archivo" id="Archivo">
+        <input type="submit" value="Cargar Archivo"><br><br>
+        <input type="submit" name="btn-enviar" id="btn-enviar" value="enviar" required><br><br>
+        <input type="reset" name="btn-limpiar" id="btn-limpiar" value="limpiar" required><br><br>
+    </form>
+    
+</body>
+</html>
